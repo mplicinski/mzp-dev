@@ -80,12 +80,12 @@ const TAB_DATA = [
         <h3 className='mt-3 font-bold text-xl '>The Guardian Insurance Agencym, Web Developer & IT Administrator</h3>
         <ul className='list-disc pl-3 mt-1'>
           <li>Designed, built, and deployed agency website featuring an aesthetic frontend and functional backend.</li>
-          <li>Centralized information storage and retrieval by converting the agency's physical documents/files into an organized database.</li>
+          <li>{"Centralized information storage and retrieval by converting the agency's physical documents/files into an organized database."}</li>
           <li>Assisted clients with document generation and delivery.</li>
           <li>Resolved IT issues throughout the agency and its systems when problems arose.</li>
           <li>Trained new employees in use of company technology and in providing customer service.</li>
         </ul>
-      </div>
+      </div> 
     )
   } 
 ]
@@ -107,7 +107,7 @@ const AboutSection = () => {
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-4xl font-bold text-whte mb-4 mt-1'>About Me</h2>
           <p className='text-base md:text-lg'>
-            Hi, my name is Matthew Plicinski I have a diverse background in web development, IT administration, and customer support. I've had a passion for technology from a young age and have explored it all through my youth and going into college where I acquired a Bachelors of Computer Science from DePaul University. My skills include various web development technologies, a diverse set of programming & scripting languages, as well as Windows & Linux system administration. Along with my customer support experience I bring a strong skill set to understand & troubleshoot complex & multifaceted issues. Whether its building robust web applications, designing user-friendly interfaces, or streamlining IT operations I'm always ready for the challenge.  I am continuously seeking growth and excited to contribute my expertise to a dynamic team, taking on new problems in the ever evolving world of technology.
+            {"Hi, my name is Matthew Plicinski I have a diverse background in web development, IT administration, and customer support. I've had a passion for technology from a young age and have explored it all through my youth and going into college where I acquired a Bachelors of Computer Science from DePaul University. My skills include various web development technologies, a diverse set of programming & scripting languages, as well as Windows & Linux system administration. Along with my customer support experience I bring a strong skill set to understand & troubleshoot complex & multifaceted issues. Whether its building robust web applications, designing user-friendly interfaces, or streamlining IT operations I'm always ready for the challenge.  I am continuously seeking growth and excited to contribute my expertise to a dynamic team, taking on new problems in the ever evolving world of technology."}
           </p>
           <div className='flex flex-row justify-start mt-8'>
             <TabButton 

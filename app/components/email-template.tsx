@@ -12,7 +12,7 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
 }) => (
   <>
     <h3>
-      Thanks for contacting me through my website mzp.dev. I'll get back to you as soon as possible.
+      {"Thanks for contacting me through my website mzp.dev. I'll get back to you as soon as possible."}'
     </h3>
     <h3>
       If you have any additional questions, please feel free to reach out to me at: matt@mzp.dev

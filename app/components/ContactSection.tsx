@@ -43,9 +43,7 @@ const ContactSection = () => {
         <h5 className='text-xl font-bold text-white my-2'>Contact Me</h5>
         <p className='text-[#ADB7BE] mb-4 max-w-md'>
           {" "}
-          Interested in collaborating or have an opportunity you think could be a great fit? Feel free to reach out! 
-          I'm open to connecting whether it's regarding a project you have in mind or if you simply want to discuss technology or design. 
-          Don't hesitate to get in touch!
+          {"Interested in collaborating or have an opportunity you think could be a great fit? Feel free to reach out! I'm open to connecting whether it's regarding a project you have in mind or if you simply want to discuss technology or design. Don't hesitate to get in touch!"}
         </p>
         <div className='socials flex flex-row gap-2'>
           <Link href="https://github.com/mplicinski" target='_blank'>
