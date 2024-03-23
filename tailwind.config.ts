@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        background: "#151515",
+        cyan: "#00FFFF",
+        magenta: '#FF00FF',
+        yellow: '#FFFF00',
+        black: '#000000'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
