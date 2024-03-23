@@ -9,13 +9,6 @@ import { saveAs } from "file-saver";
 import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
-  const saveFile = () => {
-    saveAs(
-      "https://drive.google.com/file/d/1RetLTx5Td1nX4TZi6p6edUa2a3zGBSyX/view?usp=drive_link",
-      "matthew_plicinski_cv.pdf"
-    );
-  };
-
   return (
     <section>
       <div className='grid grid-cols-1 lg:grid-cols-12'>
