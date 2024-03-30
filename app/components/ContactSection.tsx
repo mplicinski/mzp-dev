@@ -57,7 +57,7 @@ const ContactSection = () => {
       <div>
           <form action="" className='flex flex-col' onSubmit={handleSubmit}>
             <div className='flex flex-col md:flex-row justify-between'>
-              <div className='mb-6 w-1/2 mr-2'>
+              <div className='mb-6 w-1/2 mr-4'>
                 <label htmlFor="name" className='text-white block mb-2 text-sm font-medium'>Your Name</label>
                 <input
                   name="name"
@@ -67,7 +67,7 @@ const ContactSection = () => {
                   className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full py-2.5 pl-2"
                   placeholder='Joe Smith'/>
               </div>
-              <div className='mb-6 w-1/2 ml-2'>
+              <div className='mb-6 w-1/2'>
                 <label htmlFor="email" className='text-white block mb-2 text-sm font-medium'>Your Email</label>
                 <input
                   name="email"
