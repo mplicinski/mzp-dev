@@ -12,8 +12,7 @@ const Footer = () => {
           <h5 className={sourceCodePro.className + ' text-2xl'}>mzp.dev</h5>
         </span>
         <p className='text-slate-600'>
-          All rights reserved.<br/>
-          About Me Image by brgfx on Freepik
+          All rights reserved.
         </p>
       </div>
     </footer>

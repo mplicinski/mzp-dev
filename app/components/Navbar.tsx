@@ -29,7 +29,7 @@ const Navbar = () => {
 const [navbarOpen, setNavbarOpen] = useState(false)
 
   return (
-    <nav className='fixed top-0 left-0 right-0 bg-[#000000] bg-opacity-95 border border-b-[#33353F] border-l-transparent border-r-transparent border-t-transparent z-20'>
+    <nav className='fixed top-0 left-0 right-0 bg-[#000000] bg-opacity-95 border border-b-[#33353F] border-l-transparent border-r-transparent border-t-transparent z-40'>
       <div className='flex flex-wrap container lg:py-4 items-center justify-between mx-auto px-4 py-2'>
         <Link className={sourceCodePro.className + " text-2xl md:text-5xl"} href={"/"}>
           mzp.dev

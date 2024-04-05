@@ -12,8 +12,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-[#151515]">
       <title>mzp.dev</title>
       <Navbar/>
-      <div className="container mt-24 mx-auto px-6 py-4">
-        <HeroSection/>
+      <HeroSection/>
+      <div className="container mx-auto px-6 py-4 mt-6">
         <AboutSection/>
         <ProjectSection/>
         <ContactSection/>
