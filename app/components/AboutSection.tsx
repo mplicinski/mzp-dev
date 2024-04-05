@@ -102,8 +102,16 @@ const AboutSection = () => {
 
   return (
     <section id="about" className='text-white'>
-      <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-        <Image src="/images/about-image.png" width={500} height={500} alt="Computer on desk graphic." className='rounded-xl'/>
+      <div className='md:grid md:grid-cols-2 gap-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
+        <div className='rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] relative mx-auto'>
+            <Image
+              src="/images/profile-picture.jpeg"
+              alt="Matthew Plicinski's Profile Photo"
+              className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full'
+              width={250}
+              height={250}
+            />
+        </div>
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-4xl font-bold text-whte mb-4 mt-1'>About Me</h2>
           <p className='text-base md:text-lg'>
