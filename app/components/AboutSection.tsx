@@ -95,7 +95,7 @@ const TAB_DATA = [
           </li>
         </ul>
         <h3 className="mt-3 font-bold text-xl ">
-          The Guardian Insurance Agencym, Web Developer & IT Administrator
+          The Guardian Insurance Agency, Web Developer & IT Administrator
         </h3>
         <ul className="list-disc pl-3 mt-1">
           <li>
