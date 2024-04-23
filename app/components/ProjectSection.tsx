@@ -16,7 +16,7 @@ const projectData = [
     id: 2,
     title: "Guardian Insurance Agency Website",
     description:
-      "An informational website for an independant insurance agency. Built using Django ",
+      "An informational website for an independant insurance agency. Built using Django",
     image: "images/guardian-agency-preview.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/mplicinski/guardian-insurance-agency-website",
