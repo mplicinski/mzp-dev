@@ -36,7 +36,7 @@ const TAB_DATA = [
           <h3 className="text-xl font-bold mb-1">System Administration</h3>
           <ul>
             <li>Windows Server Administration</li>
-            <li>Linux Sevrver Administration</li>
+            <li>Linux Server Administration</li>
             <li>Docker Administration</li>
             <li>Powershell Scripting</li>
             <li>Bash Scripting</li>
